@@ -1,0 +1,15 @@
+@import "./base.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f5f7;
+  color: #231f20;
+  font-family: 'VT323', monospace;
+  max-height: 100vh;
+  overflow: auto;
+}
