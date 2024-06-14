@@ -1,0 +1,3 @@
+const cvContent = `<h2>Curriculum Vitae</h2><p><strong>Personal Information:</strong><br>Name: John Doe<br>Date of Birth: January 1, 1990<br>Address: 123 Main Street, Cityville<br></p><h3>Education</h3><p><strong>University of Example:</strong><br>Bachelor of Science in Computer Science<br>Graduation Date: May 2012<br></p><h3>Work Experience</h3><p><strong>Software Developer</strong><br>Example Company, Cityville<br>January 2013 - Present<br>Responsibilities: Developing and maintaining software applications.</p>`
+
+export default cvContent;
