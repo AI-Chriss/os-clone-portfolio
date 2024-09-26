@@ -28,10 +28,12 @@ onBeforeUnmount(() => {
 
 <style scoped>
   p {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 
-  div {
-    
+  @media (max-width: 768px) {
+    p {
+      font-size: 1.4rem;
+    }
   }
 </style>

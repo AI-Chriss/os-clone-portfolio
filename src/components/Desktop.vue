@@ -18,15 +18,15 @@
 import { ref, inject } from 'vue';
 import Icon from './Icon.vue';
 import DateAndTime from './DateAndTime.vue';
-import cvContent from './iconsContent/cvIconContent.js'
+import bioContent from './iconsContent/bioIconContent.js'
 import portfolioContent from './iconsContent/portfolioIconContent.js'
-  
+
 const openWindow = inject('openWindow');
 
 const icons = ref([
   {
-    title: 'CV',
-    content: cvContent,
+    title: 'Bio',
+    content: bioContent,
     customIcon: 'fa-solid fa-file desktopClass',
     iconType: 'desktopFile'
   },
@@ -56,8 +56,9 @@ const icons = ref([
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  overflow: hidden;
 }
-  
+
 .icon_wrapper {
   display: flex;
   flex-direction: column;
@@ -68,7 +69,12 @@ const icons = ref([
   background: lightgrey;
 }
 
-.dateAndTime {
-  top: 0;
+@media (max-width: 768px) {
+  .dateAndTime {
+    position: absolute;
+    bottom: 5rem;
+    right: 2rem;
+  }
 }
 </style>
+

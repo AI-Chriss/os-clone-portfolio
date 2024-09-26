@@ -10,5 +10,5 @@ import { useRoute, useRouter } from 'vue-router';
 </script>
 
 <style>
-  
+
 </style>
