@@ -1,6 +1,6 @@
 const bioContent = `
     <div class="text-xl">
-        <img class="max-w-56" src="./src/images/bio_img.jpg"/>
+        <img class="max-w-56" src="/images/bio_img.jpg"/>
         <h2 class="font-bold text-3xl py-2">Krzysztof Lewandowski</h2>
         <h4 class="text-xl" style="padding-bottom: 10px">
             Junior Front-End Developer

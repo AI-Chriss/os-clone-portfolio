@@ -38,7 +38,7 @@ const icons = ref([
   },
   {
     title: 'Photo',
-    content: `<img style="max-width: 100%;" src="./src/images/photo1.jpg">`,
+    content: `<img style="max-width: 100%;" src="/images/photo1.jpg">`,
     customIcon: 'fa-solid fa-laptop desktopClass',
     iconType: 'desktopFile'
   },
