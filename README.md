@@ -1,1 +1,1 @@
-My personal os-clone portfolio App build in Vue. 
+My personal os portfolio App build in Vue. 
